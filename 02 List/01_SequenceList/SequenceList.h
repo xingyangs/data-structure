@@ -77,7 +77,7 @@ int LocateElem_Sq(SqList  L, LElemType_Sq e, Status(Compare)(LElemType_Sq, LElem
 Status PriorElem_Sq(SqList L, LElemType_Sq cur_e, LElemType_Sq *pre_e);
 
 /*
- * 初始条件: 书匈奴线性表存在
+ * 初始条件: 顺序线性表存在
  * 结果:  * 结果: 若 cur_e 是顺序线性表的数据元素，且不是最后一个，则用 next_e 返回它的后继，否则操作失败
  */
 Status NextElem_Sq(SqList L, LElemType_Sq cur_e, LElemType_Sq *next_e);
